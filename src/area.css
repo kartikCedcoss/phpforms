@@ -1,0 +1,36 @@
+.inputdiv1{
+    display: inline-block;
+    margin:3em 4em 0em 18em;
+    font-size: 18px;
+}
+.inputdiv2{
+    margin:1em 1em 1em 18em;
+    display: inline-block;
+    font-size:18px;
+
+}
+#input1{
+    padding: 11px 50px;
+    margin-left:3px ;
+   color:  rgb(10, 8, 8);
+    margin-right: auto;
+}
+#input2{
+    padding:11px 50px;
+    margin-left:8px;
+    margin-right: auto;
+    color: rgb(12, 9, 9);
+}
+.button1{
+   margin: 3em 1em 1em 29.8em;
+    padding: 8px 20px;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(218, 210, 210);
+    
+    
+}
+.div3{
+ margin:2em 5em 10em 18em;
+ font-size: 18px;
+}
