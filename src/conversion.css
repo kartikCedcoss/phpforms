@@ -1,0 +1,39 @@
+.div1{
+    margin:4em 10em 2em 30em;
+
+}
+.inputdiv1{
+    padding:20px 50px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.div2{
+    margin :3em 10em 2em 30em;
+}
+#result1{
+    text-align: center;
+    margin :0em 20em 2em 14em;
+    padding:4px,8px;
+}
+.div4{
+    margin :3em 10em 2em 30em;
+    display: inline-block;
+    
+
+}
+.btn{
+    padding:10px 118px;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 14px;
+
+}
+#h2s{
+     padding:2px 2px;
+     
+}
+#h2m{
+    padding:2px 2px;
+      
+}
