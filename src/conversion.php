@@ -32,7 +32,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
     }
     else {
-        $result = $input * 3600 . " ". "Minutes";
+        $result = $input * 3600 . " ". "Seconds";
 
     }
      
