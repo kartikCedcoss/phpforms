@@ -40,7 +40,7 @@
    
    ?>
    <form method="post" action=""> 
-   Bill: <input type="text" name="unit"  value= "<?php echo $bill ?> ">
+   Bill: <input type="text" name="unit"  >
    <input type="submit"  name="submit" value="Submit">
    <div>
        <?php  
