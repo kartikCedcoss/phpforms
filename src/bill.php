@@ -20,20 +20,21 @@
        if ($unit <= 50){
            $bill = $unit*3.50;
        }
-       elseif($unit>50 && $unit<=100){
-           $temp = 50 * 3.50 ;
-           $remain = $unit -50 ;
-           $bill = $temp + ($remain * 4.00);
+       elseif($unit>50 && $unit<=150){
+        $remain = $unit - 50;
+        $bill = 50*3.50 + $remain*4.00;
+          
        }
-       elseif($unit>100 && $unit<=200){
-            $tempp = (50*3.50)+(100*4.00);
+       elseif($unit>150 && $unit<=250){
+           
             $remain = $unit -150 ;
-            $bill = $temp +($remain * 5.20);
+            $bill = 50*3.50 + $remain*4.00;
+           
        }
        else{
-           $temp = (50*3.50)+(100*4.00)+( 100*5.20);
+           
            $remain = $unit - 250 ;
-           $bill = $temp + ($remain * 6.50 );
+           $bill = 50*3.50 + 100*4.00+ 100*5.20 +$remain*6.50;
        }
        return    floatval($bill);
    }
@@ -47,8 +48,6 @@
 
        echo  "<br>";
         echo $bill;
-       
-       
        ?>
 </div>
 

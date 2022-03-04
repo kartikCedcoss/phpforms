@@ -16,7 +16,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         $uploadOK=1;
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 
-        if ($_FILES["img_upload"]["size"] > 300000) {
+        if ($_FILES["img_upload"]["size"] > 200000) {
             echo "Image size should not exceed 2MB.";
             $uploadOK = 0;
           }
